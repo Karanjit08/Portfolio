@@ -1,9 +1,9 @@
+import HomeHeader from "./Home_Header";
 
 
 var Body = () => {
     return (
-        <h1>HOME SCREEN</h1>
-        // HOME HEADER
+        <HomeHeader />
         // HOME BODY
         // HOME FOOTER
     );

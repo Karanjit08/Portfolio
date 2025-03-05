@@ -3,3 +3,21 @@
   padding: 0;
   overflow-x: hidden;
 }
+.home-header {
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  display: flex;
+}
+.header-left {
+  width: 40vw;
+  height: 10vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+.header-right {
+  width: 60vw;
+  height: 10vh;
+  background-color: aqua;
+}
