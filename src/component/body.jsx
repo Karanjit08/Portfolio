@@ -1,12 +1,14 @@
+import HomeBody from "./Home_body";
 import HomeHeader from "./Home_Header";
 
-
 var Body = () => {
-    return (
-        <HomeHeader />
-        // HOME BODY
-        // HOME FOOTER
-    );
-}
+  return (
+    <div>
+      <HomeHeader />
+      <HomeBody />
+      {/* // HOME FOOTER */}
+    </div>
+  );
+};
 
 export default Body;
