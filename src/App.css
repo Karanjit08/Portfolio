@@ -74,6 +74,7 @@
 .home-body-view-img {
   width: 50vw;
   height: 90vh;
+  overflow: hidden;
   /* background-color: pink; */
 }
 .home-body-view-img-source {
@@ -101,6 +102,25 @@
   font-weight: bold;
   letter-spacing: 2px;
   -webkit-text-stroke: 1px #4e80ee; /* Thickens text outline */
+}
+.home-body-view-info-container-desc {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 400;
+}
+.home-body-view-info-container-social-links {
+  margin-top: 12px;
+  width: 40%;
+  height: 10%;
+  /* background-color: black; */
+  display: flex;
+  gap: 15px;
+}
+.home-body-view-info-container-social-links > img {
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
 }
 
 
