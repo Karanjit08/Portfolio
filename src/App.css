@@ -46,9 +46,66 @@
 }
  /* HOME HEADER ENDING */
 
+  /* HOME BODY STARTING */
+
 .home-body {
   width: 100vw;
 }
 .home-body-container {
-  position: relative;
+  position: relative; /* Ensures child absolute positioning works */
+  width: 100vw;
 }
+.home-body-view {
+  width: 100vw;
+  height: 90vh;
+  /* background-color: black; */
+  position: absolute;
+  top: 0px;
+  display: flex;
+}
+.home-body-view-info {
+  width: 50vw;
+  height: 90vh;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-body-view-img {
+  width: 50vw;
+  height: 90vh;
+  /* background-color: pink; */
+}
+.home-body-view-img-source {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home-body-view-info-container {
+  width: 90%;
+  height: 60%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+}
+.home-body-view-info-container-title {
+  font-size: 3.5rem;
+  font-weight:bold; /* Makes the font bold */
+  color: black;
+  letter-spacing: 2px; /* Slight spacing for better readability */
+  -webkit-text-stroke: 2px black; /* Thickens text outline */
+}
+.home-body-view-info-container-skills {
+  font-size: 3.5rem;
+  color: #4e80ee;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #4e80ee; /* Thickens text outline */
+}
+
+
+
+
+
+
+ /* HOME BODY ENDING */
